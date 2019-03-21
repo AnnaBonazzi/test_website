@@ -8,13 +8,14 @@ body {
   background-color: #F4F4F4;
   margin-right: 60px;
   margin-left: 60px;
+  font-family:Raleway, Avenir, Calibri, Verdana, sans-serif;
 }
 h1 {
-  color:#1B4F72;
+  color:#001902;
   font-family:sans-serif;
 }
 h2 {
-  color:#2874A6;
+  color:#001902;
   font-family:sans-serif;
   border: 2px dashed #A93226;
   padding: 10px;
