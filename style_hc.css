@@ -97,15 +97,15 @@ img {
 }
 
 .column {
-  float: left;
+  /*float: left;*/
 }
 
 .left, .right {
-  width: 10%;
+  width: 5%;
   color: #6A1F00;
 }
 
 .middle {
-  width: 80%;
+  width: 90%;
   color: #6A1F00;
 }
