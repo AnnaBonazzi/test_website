@@ -1,6 +1,7 @@
 body {
   background-color:#292726;
   margin-left: 120px; /* Same as the width of the sidebar */
+  margin-right: 120px;
   padding: 0px 10px;
 }
 h1 {
@@ -58,6 +59,13 @@ img {
   background-color: #4D1903; /* #111 Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 20px;
+}
+
+.sidebar-right {
+  width: 120px;
+}
+.sidebar-left {
+  width: 120px;
 }
 
 /* The navigation menu links */
