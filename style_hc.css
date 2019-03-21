@@ -5,8 +5,9 @@ body {
   /*padding: 0px 10px;*/
 }
 .container {
-  background-color: red;/*#F4F4F4;*/
-  margin: 80px;
+  background-color: #F4F4F4;
+  margin-right: 60px;
+  margin-left: 60px;
 }
 h1 {
   color:#1B4F72;
