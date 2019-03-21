@@ -12,41 +12,34 @@ body {
 }
 h1 {
   color:#001902;
-  font-family:sans-serif;
 }
 h2 {
   color:#001902;
-  font-family:sans-serif;
   border: 2px dashed #A93226;
   padding: 10px;
 }
 h3 {
   color:#001902;
-  font-family:sans-serif;
   border: 4px dashed #7B241C;
   padding: 10px;
 }
 p {
   color:#001902;
-  font-family:sans-serif;
   font-size: 14;
   padding: 10px;
 }
 div {
   color:#001902;
-  font-family:sans-serif;
   font-size: 14;
   padding: 10px;
 }
 li {
   color:#001902;
-  font-family:sans-serif;
   font-size: 14;
   padding: 10px;
 }
 a {
   color:#320A00;
-  font-family:sans-serif;
 }
 img {
   border-bottom: 1px solid #641E16;
