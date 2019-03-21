@@ -1,5 +1,5 @@
 body {
-  background-color:#292726;
+  background-color:#DFDEDE;
   margin-left: 120px; /* Same as the width of the sidebar */
   margin-right: 120px;
   padding: 0px 10px;
@@ -63,9 +63,11 @@ img {
 
 .sidebar-right {
   width: 120px;
+  color: #2F0E00;
 }
 .sidebar-left {
   width: 120px;
+  color: #2F0E00;
 }
 
 /* The navigation menu links */
