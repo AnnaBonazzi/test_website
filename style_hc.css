@@ -1,5 +1,5 @@
 body {
-  background-color:#DFDEDE;
+  background-color:#F4F4F4;
   margin-left: 120px; /* Same as the width of the sidebar */
   margin-right: 120px;
   padding: 0px 10px;
@@ -94,4 +94,18 @@ img {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+.column {
+  float: left;
+}
+
+.left, .right {
+  width: 10%;
+  color: #6A1F00;
+}
+
+.middle {
+  width: 80%;
+  color: #6A1F00;
 }
