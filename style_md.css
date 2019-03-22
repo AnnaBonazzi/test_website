@@ -1,15 +1,45 @@
+/* Background (sides) */
 body {
   background-color: #320A00;/*#F4F4F4;*/
    /* margin-left: 120px;  Same as the width of the sidebar */
   /* margin-right: 120px; */
   /*padding: 0px 10px;*/
 }
+
+/* Menu */
+.topnav {
+  overflow: hidden;
+  background-color: #DDDDDD; /* slightly darker gray*/
+}
+
+.topnav a {
+  float: left;
+  color: #320A00;  /* usual red*/
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #6A6A6A; /* darker gray*/
+  color: #320A00; /* usual red*/
+}
+
+.topnav a.active {
+  background-color: #320A00; /* usual red*/
+  color: #DDDDDD; /* darker gray*/
+}
+
+/* Text container - main background */
 .container {
   background-color: #F4F4F4;
   margin-right: 60px;
   margin-left: 60px;
   font-family:"Proxima Nova Soft", Raleway, Avenir, Calibri, Verdana, sans-serif;
 }
+
+/* Text */
 h1 {
   color:#001902;
   font-weight: bold;
@@ -50,32 +80,4 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 120px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #4D1903; /* #111 Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-}
-
-.sidebar-right {
-  width: 120px;
-  color: #2F0E00;
-}
-.sidebar-left {
-  width: 120px;
-  color: #2F0E00;
-}
-
-
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
 }
